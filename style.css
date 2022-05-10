@@ -53,3 +53,14 @@ nav li a:hover{
     background-color: lightyellow;
     color:red;
 }
+.post{
+    text-align:center;
+    padding: 10px;
+    float:center;
+}
+.post2{
+    text-align:center;
+    padding:10px;
+    float:center;
+}
+
