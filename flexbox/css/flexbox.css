@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+/*導覽列樣式設定*/
+body,ul{
+    margin:0px;
+}
+header{
+    position:sticky;
+    position:-webkit-sticky;
+    top:0;
+}
+nav{
+    background-color: gray;
+}
+nav ul{
+    display:flex;
+    justify-content: right;
+
+}
+nav li{
+    list-style-type: none;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+    padding:10px;
+}
+nav a:hover{
+    background-color: lightgray;
+    color:black;
+    transition: background-color 1s linear, color 1s ease-in;
+}
+
+
+/*標題列樣式設定*/
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(119, 136, 153,80%);
+}
+
+.title{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*相片清單樣式設定*/
+
+#photolist ul{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding:0px;
+}
+#photolist li{
+    list-style-type: none;
+    margin:10px;
+}
+#photolist img{
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.gotop{
+    font-size:60px;
+    color:brown;
+    position: fixed;
+    right:10px;
+    bottom:10px;
+}
